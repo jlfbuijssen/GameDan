@@ -199,7 +199,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 10
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -223,7 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c0f4dc13e642d488a097ef88ada261, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  villagerNavMeshAgent: {fileID: 0}
+  villagerNavMeshAgent: {fileID: 381766996}
+  villagerMaxSpeed: 10
 --- !u!4 &381766998
 Transform:
   m_ObjectHideFlags: 0
@@ -256,7 +257,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &570472017
 Transform:
